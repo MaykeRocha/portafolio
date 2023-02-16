@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.title { 
+    padding-right: 50px;
+    margin: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 2px 3px rgb(4, 113, 255);
+    
+}
+
+.ol {
+    width: 1332px;
+    height: 200px;
+    margin: 10px;
+    border: 9px groove green;
+    display: block;
+    line-height: 25px;
+    flex: 1;
+}
+
+.hover1:hover {
+    color: rgb(20, 0, 201);
+}
+
+.hover2:hover {
+    color: rgb(247, 0, 41);
+}
+
+.hover3:hover {
+    color: rgb(255, 136, 0);
+}
+
+.hover4:hover {
+    color: rgb(219, 0, 102);
+}
+
+.img {
+  flex: 1;
+    width: 1340px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.relative {
+    width: 1110px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    bottom: 300px;
+    left: 230px;
+    line-height: 1.5em;
+}
+
+.extra {
+    width: 1300px;
+    height: 200px;
+    border: 1px solid rgb(252, 252, 252);
+    overflow: hidden;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: rgb(41, 196, 2);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 255, 0);
+    border-radius: 4px;
+}
+
+.hero {
+  flex: 1;
+  width: 1345px;
+    background-color: #2CA8DD;
+    background-image: url(https://media.istockphoto.com/id/1163541604/es/foto/de-cerca-detr%C3%A1s-detr%C3%A1s-de-la-foto-guapo-%C3%A9l-su-chico-escribiendo-el-desarrollo-del-teclado-de.jpg?s=612x612&w=0&k=20&c=BYG5ZrWJAkPUv4L7BCXS2Hqo3xjULnSqR2F6iBWPZmE=);
+    background-size: 20%;
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+  flex: 1;
+    padding:  5rem;
+}
+
+body.dark-mode {
+background-color: rgb(0, 0, 0);
+color: white;
+}
+
+.car__verde {
+  animation: avanzar 3s linear infinite alternate, linear infinite;
+}
+
+@keyframes avanzar {
+  100% {
+    transform: translateX(1160px);
+  }
+}
+
+.style {
+  font-size: 30px;
+}
+
+.style2 {
+  font-size: 25px;
+}
+
+.style3 {
+  font-size: 20px;
+}
+
+.exp {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.section {
+  flex: 1;
+  width: 1332px;
+  height: 910px;
+  margin: 10px;
+  display: block;
+  line-height: 25px;
+}
+
+.copyright {
+  font-style: italic;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
